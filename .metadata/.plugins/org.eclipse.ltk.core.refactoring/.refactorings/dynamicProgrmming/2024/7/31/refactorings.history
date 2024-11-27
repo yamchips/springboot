@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;max_len&apos; in &apos;solution.Solution.wordBreak(...)&apos; to &apos;maxLength&apos;&#x0D;&#x0A;- Original project: &apos;dynamicProgrmming&apos;&#x0D;&#x0A;- Original element: &apos;solution.Solution.wordBreak(String, List&lt;String&gt;).max_len&apos;&#x0D;&#x0A;- Renamed element: &apos;max_len&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;max_len&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;solution{Solution.java[Solution~wordBreak~QString;~QList\&lt;QString;&gt;;@max_len!737!752!741!747!I!0!false" name="maxLength" references="true" stamp="1722345864775" version="1.0"/>
+</session>

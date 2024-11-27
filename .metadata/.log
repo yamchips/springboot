@@ -1,0 +1,1425 @@
+!SESSION 2024-11-23 15:39:48.817 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -data D:\2-Study\git -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file D:\2-Study\git\.metadata\.bak_0.log
+Created Time: 2024-11-23 15:48:20.121
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:20.121
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.bc.BcPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:176)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier$PGPPublicKeyStore.addKeys(PGPSignatureVerifier.java:60)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:130)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:483)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1151)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:791)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:328)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:298)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:234)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:779)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:20.122
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.bc.BcPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:176)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier$PGPPublicKeyStore.addKeys(PGPSignatureVerifier.java:60)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:130)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:483)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1151)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:791)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:328)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:298)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:234)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:779)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:20.122
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.bc.BcPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:176)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier$PGPPublicKeyStore.addKeys(PGPSignatureVerifier.java:60)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:130)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:483)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1151)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:791)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:328)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:298)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:234)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:779)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:20.123
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.bc.BcPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:176)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier$PGPPublicKeyStore.addKeys(PGPSignatureVerifier.java:60)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:130)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:483)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1151)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:791)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:328)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:298)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:234)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:779)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:20.123
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.bc.BcPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:176)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier$PGPPublicKeyStore.addKeys(PGPSignatureVerifier.java:60)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:130)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:483)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1151)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:791)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:328)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:298)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:234)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:779)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:20.123
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.bc.BcPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:176)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier$PGPPublicKeyStore.addKeys(PGPSignatureVerifier.java:60)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:130)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:483)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1151)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:791)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:328)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:298)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:234)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:779)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:21.125
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.bc.BcPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:176)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier$PGPPublicKeyStore.addKeys(PGPSignatureVerifier.java:60)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:130)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:483)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1151)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:791)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:328)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:298)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:234)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:779)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:21.126
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.bc.BcPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:176)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier$PGPPublicKeyStore.addKeys(PGPSignatureVerifier.java:60)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:130)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:483)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1151)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:791)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:328)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:298)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:234)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:779)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:21.131
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.bc.BcPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:176)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier$PGPPublicKeyStore.addKeys(PGPSignatureVerifier.java:60)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:130)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:483)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1151)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:791)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:328)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:298)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:234)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:779)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:21.132
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.bc.BcPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:176)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier$PGPPublicKeyStore.addKeys(PGPSignatureVerifier.java:60)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:130)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:483)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1151)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:791)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:328)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:298)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:234)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:779)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:21.133
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.bc.BcPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:176)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier$PGPPublicKeyStore.addKeys(PGPSignatureVerifier.java:60)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:130)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:483)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1151)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:791)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:328)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:298)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:234)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:779)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:21.134
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.bc.BcPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:176)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier$PGPPublicKeyStore.addKeys(PGPSignatureVerifier.java:60)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:130)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:483)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1151)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:791)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:328)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:298)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:234)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:779)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:21.135
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.bc.BcPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:176)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier$PGPPublicKeyStore.addKeys(PGPSignatureVerifier.java:60)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:130)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:483)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1151)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:791)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:328)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:298)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:234)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:779)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:21.136
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.bc.BcPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:176)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier$PGPPublicKeyStore.addKeys(PGPSignatureVerifier.java:60)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:130)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:483)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1151)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:791)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:328)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:298)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:234)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:779)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:21.831
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.bc.BcPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:176)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier$PGPPublicKeyStore.addKeys(PGPSignatureVerifier.java:60)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:130)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:483)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1151)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:791)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:328)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:298)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:234)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:779)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:21.831
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.bc.BcPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:176)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier$PGPPublicKeyStore.addKeys(PGPSignatureVerifier.java:60)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:130)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:483)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1151)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:791)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:328)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:298)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:234)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:779)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:24.159
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.bc.BcPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:176)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier$PGPPublicKeyStore.addKeys(PGPSignatureVerifier.java:60)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:130)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:483)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1151)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:791)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:328)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:298)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:234)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:779)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:24.159
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.bc.BcPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:176)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier$PGPPublicKeyStore.addKeys(PGPSignatureVerifier.java:60)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:130)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:483)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1151)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:791)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:328)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:298)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:234)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:779)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:24.887
+!MESSAGE org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+!STACK 0
+org.bouncycastle.openpgp.PGPException: org.bouncycastle.openpgp.PGPPublicKey found where PGPPublicKeyRing expected
+	at org.bouncycastle.openpgp.PGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.bouncycastle.openpgp.bc.BcPGPPublicKeyRingCollection.<init>(Unknown Source)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.readPublicKeys(PGPSignatureVerifier.java:176)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier$PGPPublicKeyStore.addKeys(PGPSignatureVerifier.java:60)
+	at org.eclipse.equinox.internal.p2.artifact.processors.pgp.PGPSignatureVerifier.initialize(PGPSignatureVerifier.java:130)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPGPSignatureVerifier(SimpleArtifactRepository.java:496)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.addPostSteps(SimpleArtifactRepository.java:483)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.processDestination(SimpleArtifactRepository.java:1151)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:791)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:328)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:298)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:234)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:156)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:779)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2024-11-23 15:48:25.813
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2024-11-23 15:48:25.813
+!MESSAGE session context was:(profile=C__Users_flync_eclipse_epsilon-2-4_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.813
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.813
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.813
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.813
+!MESSAGE Public key not found for 5c28247a08c3bba7.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.813
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.813
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.813
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.813
+!MESSAGE Public key not found for 810cecf8ba271008.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.813
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.813
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.813
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.813
+!MESSAGE Public key not found for 5c28247a08c3bba7.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.813
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.813
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.813
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.813
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.813
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.813
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.813
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.813
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.813
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.813
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.813
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.813
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.813
+!MESSAGE Public key not found for 5c28247a08c3bba7.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 810cecf8ba271008.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 810cecf8ba271008.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 5c28247a08c3bba7.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.814
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.814
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.814
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 5c28247a08c3bba7.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 810cecf8ba271008.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 810cecf8ba271008.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 810cecf8ba271008.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 810cecf8ba271008.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 5c28247a08c3bba7.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 5c28247a08c3bba7.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 5c28247a08c3bba7.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 88d2117facb952d9.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 5c28247a08c3bba7.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 4 2024-11-23 15:48:25.815
+!MESSAGE Result of processing steps.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.equinox.p2.artifact.repository 4 0 2024-11-23 15:48:25.815
+!MESSAGE Public key not found for 700e4f39bc05364b.
+!SUBENTRY 2 unknown 0 0 2024-11-23 15:48:25.815
+!MESSAGE OK

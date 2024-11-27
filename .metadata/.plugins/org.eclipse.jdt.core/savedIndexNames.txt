@@ -1,0 +1,14 @@
+INDEX VERSION 1.131+D:\2-Study\git\.metadata\.plugins\org.eclipse.jdt.core
+3599480861.index
+4035880990.index
+2682077382.index
+1836911458.index
+1654214433.index
+1326359849.index
+334387484.index
+1345448175.index
+3157431424.index
+3347097474.index
+1865797976.index
+1133294678.index
+656117481.index

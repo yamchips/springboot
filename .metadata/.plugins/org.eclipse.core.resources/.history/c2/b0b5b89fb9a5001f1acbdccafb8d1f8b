@@ -1,0 +1,45 @@
+package binaryTree;
+
+public class FlattenTree {
+
+  public static void main(String[] args) {
+    
+
+  }
+  
+  public static void flatten(TreeNode root) {
+    Stack<TreeNode> queue = new Stack<>();
+    TreeNode prev = null, origin = root;
+    while (root != null || !queue.isEmpty()) {
+        while (root != null) {
+            
+            queue.push(root);
+            if (prev != null) {
+                
+                prev.right = new TreeNode(root.val);
+                prev.left = null;
+                System.out.printf("prev is %d, root is %d\n", prev.val, root.val);
+            }
+            if (prev == null) {
+                prev = new TreeNode(root.val);
+            } else {
+                prev = prev.right;
+            }
+            
+            root = root.left;
+
+        }
+        System.out.println("exit the inner while loop");
+        root = queue.pop();
+        System.out.println("root is " + root.val);
+        root = root.right;
+        if (root != null) {
+            System.out.println("root's right is " + root.val);
+        } else {
+            System.out.println("root's right is null");
+        }
+    }
+    root = origin;
+}
+
+}
